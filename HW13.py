@@ -1,13 +1,4 @@
-'''
-Created on Dec 1, 2022
 
-@author: pshre
-'''
-'''
-Created on Nov 30, 2022
-
-@author: pshre
-'''
 import hashlib, binascii
 import time
 from itertools import permutations
@@ -95,9 +86,7 @@ def plot(samples):
     attempts = []
     
     print('SHA256 raw data for sample will load soon')
-    print('While you are waiting')
-    print('think about it')
-    print('when you see 0.002 in a list, it cant be the hast_type because that a string, it cant the the dict_size cause thats constant, so 0.002 attempts made before guessing the password or 0.002 seconds to guess the password')
+    
     
     for sample in samples:
         update_pass_info(sample)
@@ -120,9 +109,7 @@ def plot(samples):
     print(f'Attempts: {attempts}')
     
     
-# file = '20-word-list.txt'
 file = '100-word-list.txt'
-# file = '500-word-list.txt'
 dict_list = read_file(file)
 dict_length = len(dict_list)
 
