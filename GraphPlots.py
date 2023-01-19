@@ -1,7 +1,5 @@
 
 '''
-Created on Dec 2, 2022
-
 @author: aniru
 '''
 
